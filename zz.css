@@ -1,0 +1,238 @@
+.logo{
+    width: 50%; 
+   height: 150px;
+   margin-top: -30px
+}
+
+.panel1{
+    width: 100%;
+    height: 100px;
+}
+
+.img-panel{
+    width: 600px;
+    height: 150px;
+}
+.item1 {
+    width: 100%;
+    height: 600px;
+}
+.underhat{
+    margin-top: 15px;
+}
+.img-list{
+    height: 300px;
+}
+
+.push {
+  list-style: none;
+  font-family: Geometria;
+  margin-left: 0px;
+  margin-top: 5px;
+  font-size: 18px;
+}
+.push .sport-kind {
+  position: relative;
+  padding: 20px 0 20px 40px;
+  color: gray;
+  font-variant: small-caps;
+  font-weight:normal;
+  cursor: pointer;
+}
+.push .sport-kind:before {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: royalblue;
+  content: "";
+  left: 0;
+  transition: .3s ease-in-out;
+  top: 27px;
+}
+.push .sport-kind:after {
+  position: absolute;
+  border-left: 1px dotted #4F5151;
+  width: 1px;
+  bottom: -12px;
+  content: "";
+  left: 3px;
+  top: 48px;
+}
+.push .sport-kind:hover:before{box-shadow: 0 0 0 10px rgba(0,0,0,.2)}
+.push .sport-kind:last-child:after {content: none;} 
+.push .sport-kind:active:before{box-shadow: 0 0 0 10px rgba(0,0,0,.2)}
+    
+
+
+.main-div{
+    width: 100%;
+    height: 700px;
+}
+.kindofsports{
+   margin-top: 50px;
+   font-size: 35px;
+   font-weight: 200;
+    margin-bottom: 30px;
+   font-family: Geometria;
+}
+.div-sport{
+    width: 35%;
+    height: 700px;
+    margin-top: -10px;
+    border-right: 1px solid lightgray;
+}
+.div-tren{
+    width: 65%;
+    height: 800px;
+    float: right;
+    margin-top: -700px;
+}
+.trens{
+    font-size: 35px;
+    margin-top: 2px;
+    font-weight: 200;
+    margin-bottom: 60px;
+    font-family: Geometria;
+}
+.text-tren-f1{
+   
+    font-size: 16px;
+    font-family: Segoe UI;
+    color: dimgray;
+    font-weight: 400;
+}
+.text-tren-f2{
+   
+    font-size: 16px;
+    font-family: Segoe UI;
+    color: dimgray;
+    font-weight: 400;
+}
+.text-tren-f3{
+    
+    font-size: 16px;
+    font-family: Segoe UI;
+    color: dimgray;
+    font-weight: 400;
+}
+.text-tren-f4{
+    
+    font-size: 16px;
+    font-family: Segoe UI;
+    color: dimgray;
+    font-weight: 400;
+}
+.text-tren-f5{
+    
+    font-size: 16px;
+    font-family: Segoe UI;
+    color: dimgray;
+    font-weight: 400;
+}
+.text-tren-f6{
+   
+    font-size: 16px;
+    font-family: Segoe UI;
+    color: dimgray;
+    font-weight: 400;
+}
+.text-tren-f7{
+    
+    font-size: 16px;
+    font-family: Segoe UI;
+    color: dimgray;
+    font-weight: 400;
+}
+.text-tren-f10{
+    
+    font-size: 16px;
+    font-family: Segoe UI;
+    color: dimgray;
+    font-weight: 400;
+}
+.text-tren-f11{
+    
+    font-size: 16px;
+    font-family: Segoe UI;
+    color: dimgray;
+    font-weight: 400;
+}
+.text-tren-f12{
+    
+    font-size: 16px;
+    font-family: Segoe UI;
+    color: dimgray;
+    font-weight: 400;
+}
+
+.sum1{
+    color: royalblue;
+}
+
+.trener-f2{
+    border-radius: 50%;
+}
+.trener-f3{
+    border-radius: 50%;
+}
+.trener-f4{
+    border-radius: 50%;
+}
+.trener-f5{
+    border-radius: 50%;
+}
+
+
+////
+
+
+ ul {
+            list-style: none outside none;
+            padding-left: 0;
+            margin: 0;
+        }
+        div.person{
+            height: 300px;
+        }
+
+        div.person div {
+            display: none;
+
+} #content-slider{
+    padding: 0 0 0 28px;
+}
+
+.lSPager {display: none}
+.person{
+    width: 80%;
+}
+.stata{
+    width: 100%;
+    height: 500px;
+}
+.st-podval{
+    margin-top: -60px;
+}
+
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: whitesmoke;  margin-top: -105px;
+}
+.text-footer{
+    text-align: center;
+    font-size: 15px;
+    color: dimgray;
+    margin-top: 140px;
+    font-weight: 600;
+    font-family: Geometria;
+}
+.text-footer2{
+    text-align: center;
+    font-size: 13px;
+    color: lightgray;
+    font-weight: 600;
+    margin-top: -10px;
+    font-family: Geometria;
+}

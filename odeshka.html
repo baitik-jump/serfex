@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&displ.." rel="stylesheet">
+<title>odeshka</title>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.mi.."></script>
+</head>
+<body>
+<div class = "main">
+<div class = "header">
+<img src="lol.jpg" class = "image">
+<a class ="aboutustext" href="about.html">О нас</a>
+<a class ="aboutustext1" href="categories.html">Категории</a>
+<a class = "aboutustext2" href ="mini-game.html">Мини-игра</a>
+</div>
+<div class="positfix">
+</div>
+<div class = "logo">
+<a class = "logotext" href="index.html"><img class="logotip" src="logo.jpg" width="50" height="50" >O D E S H K A</a>
+</div>
+<div class ="block">
+<div class ="block1">
+<p>Ищешь место,которое поможет тебе в выборе одежды?</p>
+</div>
+<div class ="block2">
+<p class = "block2text">Ты пришёл по адресу!</p>
+</div>
+
+
+<div class ="block3">
+<a class = "block3text" href ="#perehod">Попробовать!</a>
+</div>
+</div>
+<div class="header3">
+<div class="block8">
+<div class="styles">
+<p id = "perehod" class="stylestext">Стили</p>
+</div>
+<div class="stick">
+</div>
+<div class="categories1">
+<p class="categoriestext1">КАТЕГОРИИ</p></div>
+
+</div>
+<div class="mainblocks9">
+<div class="block9">
+<div class="posita">
+<p class="classic" href="">Классический</p>
+</div>
+<div class="posita12">
+<a class="goover1" href="classic.html">Перейти</a>
+</div>
+</div>
+<div class="block10">
+<div class="posita">
+<p class="street">Уличный</p>
+</div>
+<div class="posita12">
+<a class="goover2" href="street.html">Перейти</a>
+</div>
+</div>
+<div class="block11">
+<div class="posita">
+<p class="grange">Гранж</p>
+</div>
+<div class="posita12">
+<a class="goover3" href="grange.html">Перейти</a>
+</div>
+</div>
+<div class="block12">
+<div class="posita">
+<p class="vintage">Винтаж</p>
+</div>
+<div class="posita12">
+<a class="goover4" href="vintage.html">Перейти</a>
+</div>
+</div>
+<div class="block13">
+<div class="posita">
+<p class="soft">Софт</p>
+</div>
+<div class="posita12">
+<a class="goover5" href="soft.html">Перейти</a>
+</div>
+</div>
+<div class="block14">
+<div class="posita">
+<p class="casual">Кэжуал</p>
+</div>
+<div class="posita12">
+<a class="goover6" href="casual.html">Перейти</a>
+</div>
+</div>
+</div>
+
+
+<!--<div class = "header2">
+<div class = "block4">
+<div class = "whowe">
+<p class = "who">Кто мы такие?</p>
+</div>
+<div class = "whowe1">
+</div>
+<div class = "whowe2">
+<p class = "whowe2">О НАС</p>
+</div>
+</div>
+<div class ="block5">
+<img src="aboutus.jpg" class = "image1">
+</div>
+<div class = "block6">
+<div class = "odeshka">
+<p class = "odeshkaword">ODESHKA</p>
+</div>
+<div class = "infoblock">
+<p class = "info"> - это место,где ты сможешь:</p>
+</div>
+<p class = "info1">Найти дешёвые аналоги дорогих и брендовых образов;</p>
+<p class = "info2">Подобрать образ к уже имеющимся вещам;</p>
+<p class = "info3">Сыграть в мини-игру,которая может помочь тебе в самостаятельном выборе одежды.</p>
+</div>
+<div class = "picture>">
+
+</div>
+<div class = "block15">
+<p id="perehod" class= "somethingaboutstyle">И всё это будет выполено в твоём любимом стиле!</p>
+</div>-->
+</div>
+</div>
+
+<script type="text/javascript">
+$(function(){
+$('a[href^="#"]').on('click', function(event) {
+// отменяем стандартное действие
+event.preventDefault();
+
+var sc = $(this).attr("href"),
+dn = $(sc).offset().top;
+/*
+* sc - в переменную заносим информацию о том, к какому блоку надо перейти
+* dn
+- определяем положение блока на странице
+*/
+
+$('html, body').animate({scrollTop: dn}, 1300);
+
+/*
+* 1000 скорость перехода в миллисекундах
+*/
+});
+});
+</script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.mi.."></script>
+</body>
+</html>
